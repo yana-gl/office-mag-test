@@ -1,0 +1,1 @@
+export const tests = ['text', 'button', 'form'];
