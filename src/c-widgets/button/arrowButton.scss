@@ -1,0 +1,18 @@
+.arrow-button {
+  .arrow-button {
+    color: #dc241f;
+    font-size: 16px;
+  }
+
+  &:active {
+    .arrow-button__arrow {
+      color: #dc241f;
+    }
+  }
+
+  &:disabled {
+    .arrow-button__arrow {
+      color: #dc241f;
+    }
+  }
+}
