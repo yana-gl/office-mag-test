@@ -14,8 +14,8 @@ const OldButton = ({ disabled, text }: { disabled: boolean, text: string }) => {
 export const OldButtons = () => {
 	return (
 		<div className='old-buttons'>
-			<OldButton disabled={true} text={'Кнопка'}/>
 			<OldButton disabled={false} text={'Кнопка'}/>
+			<OldButton disabled={true} text={'Кнопка'}/>
 		</div>
 	);
 };
