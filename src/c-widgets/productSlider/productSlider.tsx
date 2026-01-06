@@ -7,7 +7,7 @@ export const ProductSlider = () => {
 			{
 				products.map((product) => (
 					<div className={'product'} key={product.id}>
-						<img className={'product__img'} src={`/${product.img}`} alt={product.name}/>
+						<img className={'product__img'} src={`./${product.img}`} alt={product.name}/>
 						<p className={'product__name'}>{product.name}</p>
 					</div>
 				))

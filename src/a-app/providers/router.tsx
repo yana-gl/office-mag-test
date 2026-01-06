@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Home } from '../../b-pages/home/home';
 import { FormPage } from '../../b-pages/form/formPage';
 import { JustButtons } from '../../b-pages/justButtons/justButtons';
@@ -7,7 +7,7 @@ import { Slider } from '../../b-pages/slider/slider';
 import { Beauty } from '../../b-pages/beauty/beauty';
 import { BlackPage } from '../../b-pages/blackPage/blackPage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     { path: '/', element: <Home/> },
     { path: '*', element: <Home/> },
     { path: '/text', element: <Home/> },
