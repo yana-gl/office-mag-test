@@ -9,7 +9,6 @@
 
 .old-button {
   padding: 10px 20px;
-  border-radius: 5px;
   cursor: pointer;
   border-radius: 999px;
   border: none;
@@ -29,7 +28,7 @@
   }
   &:disabled {
     opacity: 0.6;
-    cursor: not-allowed;
+    cursor: default;
   }
   &:focus { outline: none; }
   &:focus-visible { outline: none; }

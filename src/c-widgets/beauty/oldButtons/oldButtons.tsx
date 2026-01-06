@@ -1,6 +1,11 @@
+import type { ButtonHTMLAttributes } from 'react';
 import './oldButtons.scss';
 
-const OldButton = ({ disabled, text }: { disabled: boolean, text: string }) => {
+interface OldButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+	text: string;
+}
+
+const OldButton = ({ disabled, text }: OldButtonProps) => {
 	return (
 		<button
 			disabled={disabled}
@@ -14,7 +19,7 @@ const OldButton = ({ disabled, text }: { disabled: boolean, text: string }) => {
 export const OldButtons = () => {
 	return (
 		<div className='old-buttons'>
-			<OldButton disabled={false} text={'Кнопка'}/>
+			<OldButton text={'Кнопка'}/>
 			<OldButton disabled={true} text={'Кнопка'}/>
 		</div>
 	);

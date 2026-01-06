@@ -19,7 +19,8 @@ export const ArrowButton = (props: ButtonProps) => {
 	return (
 		<ArrowStyledButton
 			className="arrow-button"
-			iconRight={<PlayArrowIcon className='arrow-button__arrow'/>}
+			iconRight={<PlayArrowIcon
+			className='arrow-button__arrow'/>}
 			{...props}
 		/>
 	);

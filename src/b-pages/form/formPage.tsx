@@ -1,5 +1,5 @@
 import './formPage.scss';
-import {Wrapper} from '../../e-shared/ui-kit/wrapper/wrapper';
+import { Wrapper } from '../../e-shared/ui-kit/wrapper/wrapper';
 import { Form } from '../../c-widgets/form/form';
 
 export const FormPage = () => {

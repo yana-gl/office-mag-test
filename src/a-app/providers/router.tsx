@@ -5,6 +5,7 @@ import { JustButtons } from '../../b-pages/justButtons/justButtons';
 import { Scheme } from '../../b-pages/scheme/scheme';
 import { Slider } from '../../b-pages/slider/slider';
 import { Beauty } from '../../b-pages/beauty/beauty';
+import { BlackPage } from '../../b-pages/blackPage/blackPage';
 
 const router = createBrowserRouter([
     { path: '/', element: <Home/> },
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     { path: '/scheme', element: <Scheme/> },
     { path: '/slider', element: <Slider/> },
     { path: '/beauty', element: <Beauty/> },
+    { path: '/black-page', element: <BlackPage/> },
 ]);
 
 export const AppRouter = () => <RouterProvider router={router} />;

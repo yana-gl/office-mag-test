@@ -1,1 +1,1 @@
-export const tests = ['text', 'buttons', 'form', 'scheme', 'slider', 'beauty'];
+export const tests = ['text', 'buttons', 'form', 'scheme', 'slider', 'beauty', 'black-page'];

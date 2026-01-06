@@ -1,13 +1,10 @@
-import './scheme.scss';
-import {Wrapper} from '../../e-shared/ui-kit/wrapper/wrapper';
+import { Wrapper } from '../../e-shared/ui-kit/wrapper/wrapper';
 import RenderMermaid from "react-x-mermaid";
 
 export const Scheme = () => {
 	return (
 		<Wrapper>
-			<div className={'scheme-wrapper'}>
-				<Diagram/>
-			</div>
+			<Diagram/>
 		</Wrapper>
 	);
 };
@@ -29,6 +26,8 @@ flowchart RL
   KBOL["Кристина Болтушкина"]
   MVIS["Максим Висолькин"]
 
+
+  %% пустые узлы для объединения связей
   EMPTY1(( ))
   EMPTY2(( ))
   EMPTY3(( ))

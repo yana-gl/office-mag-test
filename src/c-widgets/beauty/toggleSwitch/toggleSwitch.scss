@@ -36,6 +36,7 @@ $anim-ease: ease-in-out;
     border-radius: $toggle-radius;
     transition: background-position $anim-dur $anim-ease;
     box-shadow: inset 1px 2px 9px 6px rgba(0, 0, 0, 0.3);
+    perspective: 600px;
   }
 
   &__sphere {
@@ -44,11 +45,11 @@ $anim-ease: ease-in-out;
     left: 0px;
     width: $sphere-size;
     height: $sphere-size;
-    transform: translateY(-50%);
     border-radius: 50%;
     z-index: 10;
+    transform-style: preserve-3d;
+    transform: translateY(-50%) translateZ(5px);
     transition: transform $anim-dur $anim-ease;
-
   }
 
   &__sphere-bg {
@@ -90,7 +91,6 @@ $anim-ease: ease-in-out;
       border-radius: 50%;
       box-shadow: 0px -3px 10px 1px rgba(0, 0, 0, 0.3) inset;
       pointer-events: none;
-      perspective: 300px;
     }
   }
 
