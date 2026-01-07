@@ -6,11 +6,12 @@ import { Scheme } from '../../b-pages/scheme/scheme';
 import { Slider } from '../../b-pages/slider/slider';
 import { Beauty } from '../../b-pages/beauty/beauty';
 import { BlackPage } from '../../b-pages/blackPage/blackPage';
+import { Text } from '../../b-pages/text/text';
 
 const router = createHashRouter([
     { path: '/', element: <Home/> },
     { path: '*', element: <Home/> },
-    { path: '/text', element: <Home/> },
+    { path: '/text', element: <Text/> },
     { path: '/form', element: <FormPage/> },
     { path: '/buttons', element: <JustButtons/> },
     { path: '/scheme', element: <Scheme/> },
