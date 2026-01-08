@@ -4,4 +4,4 @@
 
 Демо проекта — https://office-mag-test.vercel.app/
 
-Файл с тестовым заданием — public/index.html
+Файл с тестовым заданием — [public/index.html](public/index.html)
